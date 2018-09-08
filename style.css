@@ -19,7 +19,9 @@ font-size:13px;
 font-family:verdana,"ヒラギノ丸ゴ ProN W4","Hiragino Maru Gothic ProN","メイリオ","Meiryo","ＭＳ Ｐゴシック","MS PGothic",Sans-Serif;
 line-height:1.5;
 -webkit-text-size-adjust:100%;
-background:#f7f7f7;
+background:#f7f7f7 url(./images/testback.jpg) no-repeat center center;
+background-size:cover;
+
 }
 
 
@@ -453,6 +455,7 @@ height: 100%;
 	nav div.panel{
 	display:block !important;
 	float:left;
+	background: rgb(241, 150, 30);
 	}
 
 	a#menu{display:none;}
