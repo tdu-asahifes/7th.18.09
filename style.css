@@ -1,8 +1,5 @@
 @charset "utf-8";
 
-/* =Reset default browser CSS.
-Based on work by Eric Meyer:http://meyerweb.com/eric/tools/css/reset/index.html
--------------------------------------------------------------- */
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td{border:0;font-family:inherit;font-size:100%;font-style:inherit;font-weight:inherit;margin:0;outline:0;padding:0;vertical-align:baseline;}
 :focus{outline:0;}
 
@@ -154,7 +151,7 @@ section.toppage article,section.content .archive{border:0;}
 /* アーカイブページ */
 section.content .archive{
 padding:0;
-border-bottom:1px dotted #ccc;
+border-bottom:1px dotted rgb(241, 150, 30);
 }
 
 section.content p{margin-bottom:5px; margin:0 4%;}
@@ -350,14 +347,14 @@ margin:10px 0 25px 0;
 padding:10px 0 10px 0;
 font-size:120%;
 font-weight:normal;
-border-bottom:1px solid #ddd;
+border-bottom:1px solid rgb(241, 150, 30);
 }
 
 .post blockquote{
 clear:both;
 padding:5px 0 0 15px;
 margin:10px 0 10px 0px;
-border-left:5px solid #ccc;
+border-left:5px solid rgb(241, 150, 30);
 }
 
 .post blockquote h4{
@@ -633,14 +630,14 @@ height: 100%;
 	display: block;
 	padding:15px 10px;
 	text-align:left;
-	border-bottom:1px dashed #ccc;
+	border-bottom:1px dashed rgb(241, 150, 30);
 	}
 
  	#mainNav li a span{padding-left:10px;}
 
 
 	#mainNav ul > li:last-child a{border:0;}
-	#mainNav li li:last-child a{border-bottom:1px dashed #ccc;}
+	#mainNav li li:last-child a{border-bottom:1px dashed rgb(241, 150, 30);}
 
 	#mainNav li.current-menu-item a,#mainNav li a:hover,#mainNav li.current-menu-item a,#mainNav li a:active, #mainNav li li.current-menu-item a, #mainNav li.current-menu-item li a:hover, #mainNav li.current-menu-item li a:active{
 	color:#555;
